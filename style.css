@@ -83,8 +83,10 @@ body {
 
 .bodyCategory li:hover {
   cursor: pointer;
-  color: white;
-  background-color: rgb(170, 170, 170);
+  border-bottom: 4px solid rgb(136, 178, 203);
+
+  /*color: white;
+  background-color: rgb(170, 170, 170);*/
 }
 
 #active {
@@ -110,26 +112,6 @@ body {
 .paragraph {
   border-top: 1px solid rgb(170, 170, 170);
   padding-top: 10px;
-}
-
-#about_me {
-  display: block;
-}
-
-#project1 {
-  display: none;
-}
-
-#project2 {
-  display: none;
-}
-
-#project3 {
-  display: none;
-}
-
-#project4 {
-  display: none;
 }
 
 footer {
